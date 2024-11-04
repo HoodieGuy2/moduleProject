@@ -1,0 +1,85 @@
+html {
+  background: gray;
+  scroll-behavior: smooth;
+}
+
+main {
+  margin: auto;
+  width: 1250px;
+  padding: 50px 100px;
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+h1 {
+  color: rgb(45, 60, 45);
+}
+
+p {
+  text-align: center;
+}
+
+.bUnder {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+td {
+  text-align: center;
+}
+
+td,
+th {
+  border: 2px solid black;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.formulaSection {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: auto;
+  width: 1000;
+  height: 150;
+  transition: width 1s, height 1s, font-size 1s;
+}
+
+.formulaSection:hover {
+  width: 1250;
+  height: 250;
+  font-size: larger;
+  transition: width 1s, height 1s, font-size 1s;
+}
+
+.VolumeformulaSection {
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: x-large;
+  margin: auto;
+  width: 1000;
+  height: 750;
+  transition: width 1s, height 1s, font-size 1s;
+}
+
+.VolumeformulaSection:hover {
+  width: 1250;
+  height: 1000;
+  font-size: xx-large;
+  transition: width 1s, height 1s, font-size 1s;
+}
+
+.VIMG {
+  width: 150px;
+  height: 100px;
+  margin: auto;
+}
+
+#subBtn {
+  margin-top: 75px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
